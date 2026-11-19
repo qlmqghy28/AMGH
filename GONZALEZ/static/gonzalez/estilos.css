@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #f59ccd;
-    color: #333;
+    background-color: #d592f5f8;
+    color: #cd9bf7;
 }
 
 /* ENCABEZADO */
 header {
-    background-color: rgb(240, 129, 212);
-    color: black;
+    background-color: rgb(208, 197, 245);
+    color: rgb(154, 55, 247);
     text-align: center;
     padding: 20px;
 }
 
 /* MENÚ */
 nav {
-    background-color: #e3dce4;
+    background-color: hsl(294, 19%, 89%);
     padding: 10px;
 }
 nav ul {
@@ -29,18 +29,18 @@ nav li {
 }
 
 nav a {
-    color: rgb(233, 4, 35);
+    color: hsla(288, 17%, 83%, 0.911);
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #fd5df0;
+    color: hsl(293, 78%, 82%);
 }
 
 /* CONTENIDO PRINCIPAL */
 .bienvenida {
-    background-color: white;
+    background-color: rgb(215, 181, 238);
     text-align: center;
     padding: 50px 20px;
     margin: 30px;
@@ -58,8 +58,33 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: rgb(190, 8, 160);
-    color: white;
+    background-color: rgb(151, 232, 238);
+    color: rgb(82, 80, 241);
     text-align: center;
     padding: 15px;
+}
+form {
+    background-color: rgb(242, 156, 245);
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, select, textarea{
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 141, 243);
+}
+button{
+    background-color: indianred;
+    color:khaki;
+    padding: 10px;
+    border: none;
+    width: 95%;
+    cursor:pointer;
+} 
+label{
+     background-color: darkkhaki;
 }
