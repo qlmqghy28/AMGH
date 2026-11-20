@@ -1,21 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background-color: #d592f5f8;
-    color: #cd9bf7;
+    background-color: #ecccebf8;
+    color: #ec4dd2;
 }
 
 /* ENCABEZADO */
 header {
-    background-color: rgb(208, 197, 245);
-    color: rgb(154, 55, 247);
+    background-color: rgb(247, 241, 246);
+    color: rgb(53, 6, 97);
     text-align: center;
     padding: 20px;
 }
 
 /* MENÚ */
 nav {
-    background-color: hsl(294, 19%, 89%);
+    background-color: hsl(296, 29%, 91%);
     padding: 10px;
 }
 nav ul {
@@ -29,18 +29,18 @@ nav li {
 }
 
 nav a {
-    color: hsla(288, 17%, 83%, 0.911);
+    color: hsla(318, 74%, 47%, 0.911);
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: hsl(293, 78%, 82%);
+    color: hsl(295, 72%, 37%);
 }
 
 /* CONTENIDO PRINCIPAL */
 .bienvenida {
-    background-color: rgb(215, 181, 238);
+    background-color: rgb(241, 235, 239);
     text-align: center;
     padding: 50px 20px;
     margin: 30px;
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .bienvenida h2 {
-    color: rgb(221, 124, 216);
+    color: rgb(160, 8, 135);
 }
 
 .bienvenida p {
@@ -58,13 +58,13 @@ nav a:hover {
 
 /* PIE DE PÁGINA */
 footer {
-    background-color: rgb(151, 232, 238);
-    color: rgb(82, 80, 241);
+    background-color: rgb(247, 235, 247);
+    color: rgb(136, 5, 97);
     text-align: center;
     padding: 15px;
 }
 form {
-    background-color: rgb(242, 156, 245);
+    background-color: rgb(212, 155, 214);
     width: 350px;
     margin: 30px auto;
     padding: 20px;
@@ -75,16 +75,16 @@ input, select, textarea{
     padding: 8px;
     margin: 8px 0;
     box-sizing: border-box;
-    background-color: rgb(240, 141, 243);
+    background-color: rgb(221, 213, 219);
 }
 button{
-    background-color: indianred;
-    color:khaki;
+    background-color: rgb(245, 196, 233);
+    color:rgb(248, 97, 241);
     padding: 10px;
     border: none;
     width: 95%;
     cursor:pointer;
 } 
 label{
-     background-color: darkkhaki;
+     background-color: rgb(231, 208, 233);
 }
