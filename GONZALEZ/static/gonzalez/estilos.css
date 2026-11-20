@@ -85,6 +85,15 @@ button{
     width: 95%;
     cursor:pointer;
 } 
-label{
-     background-color: rgb(231, 208, 233);
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: rgb(245, 196, 233);
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
+label{
+    font-weight: bold;
+    background-color: bisque;
+}
+    
