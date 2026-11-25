@@ -96,4 +96,35 @@ label{
     font-weight: bold;
     background-color: bisque;
 }
-    
+/* FORMULARIO */
+form {
+    background-color: rgb(212, 155, 214);
+    width: 350px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* PREGUNTAS */
+label {
+    font-weight: bold;
+    background-color: bisque;
+    color: rgb(136, 5, 97);
+}
+
+/* CAMPOS DEL FORMULARIO */
+input, textarea {
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(221, 213, 219);
+}
+
+/* RADIO Y CHECKBOX */
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: rgb(245, 196, 233);
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
