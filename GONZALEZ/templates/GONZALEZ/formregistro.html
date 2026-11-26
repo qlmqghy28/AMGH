@@ -22,7 +22,9 @@
             </ul>
         </nav>
     </header>
-<form method="POST"> 
+<form action="{%url 'registro'%}" method="POST"> 
+    {% csrf_token %}
+     <label class="titulos">Nombre:</label>
      <label>Nombre:</label>
      <input type="text" name="nombre" placeholder="Escribe tu nombre..." required>
      <label>Apellido Paterno:</label>
